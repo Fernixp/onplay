@@ -1,19 +1,281 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Películas | OnPlay</title>
-    <link rel="stylesheet" href="../css/styles.css" />
-  </head>
-  <body>
-    <!-- Navbar dinámico -->
-    <div id="navbar"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+   <title>Series | OnPlay</title>
+ <link rel="stylesheet" href="../css/styles.css" />
 
-    <main>Aqui puedes empezar a trabajar el contenido de esta pagina</main>
+  <!-- CSS modificados a serieCSS -->
+  <link rel="stylesheet" href="seriesCSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="seriesCSS/style.css" />
+  <link rel="stylesheet" href="seriesCSS/responsive.css" />
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="stylesheet" href="serieCSS/jquery.mCustomScrollbar.min.css" />
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+  <link rel="stylesheet" href="serieCSS/owl.carousel.min.css" />
+  <link rel="stylesheet" href="serieCSS/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" />
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="navbar" style="margin-top: -60px"></div>
 
-    <!-- Footer dinámico -->
-    <div id="footer"></div>
+  <!-- (Se incluye el contenedor exterior para preservar el fondo/espaciado) -->
+  <div class="movies_section layout_padding">
+    <div class="container">
+      <div class="movies_menu">
+          <h1 class="menu_title"> Tu Portal de Entretenimiento</h1>
+      </div>
+
+      <!-- ======= Letest Movies (restaurado) ======= -->
+      <div class="movies_section_2 layout_padding">
+         <h2 class="letest_text">Nuevas Series</h2>
+         <div class="seemore_bt"><a href="#">See More</a></div>
+         <div class="movies_main">
+            <div class="iamge_movies_main">
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/serie1.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">El refugio atómico</h1>
+                  <p class="there_text">Creadores del programa: Álex Pina, Esther Martínez Lobato </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/s2.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Paradise (2025– )</h1>
+                  <p class="there_text">There are many variations </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+          
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/s3.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Revival (2025– )</h1>
+                  <p class="there_text">There are many variations </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/s4.avif" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Doc (2025)</h1>
+                  <p class="there_text">There are many variations </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/s6.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Marvel Zombies</h1>
+                  <p class="there_text">Accion 2025 </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      <!-- ======= Fin Letest Movies ======= -->
+    <!-- ======= Letest Movies (restaurado) ======= -->
+      <div class="movies_section_2 layout_padding">
+         <h2 class="letest_text">Anime</h2>
+         <div class="seemore_bt"><a href="#">See More</a></div>
+         <div class="movies_main">
+            <div class="iamge_movies_main">
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/a1.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Naruto: Shippūden</h1>
+                  <p class="there_text">2007 ‧ Aventura ‧ 21 temporadas
+ </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/a6.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">One Piece</h1>
+                  <p class="there_text">There are many variations </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+          
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/a3.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Jujutsu Kaisen</h1>
+                  <p class="there_text">There are many variations </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/a4.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Fullmetal Alchemist: Brotherhood</h1>
+                  <p class="there_text">There are many variations </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="iamge_movies">
+                  <div class="image_3">
+                     <img src="images/a5.jpg" class="image" style="width:100%">
+                     <div class="middle">
+                        <div class="playnow_bt">Play Now</div>
+                     </div>
+                  </div>
+                  <h1 class="code_text">Monster</h1>
+                  <p class="there_text">Accion 2025 </p>
+                  <div class="star_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                        <li><a href="#"><img src="images/star-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+    </div>
+  </div>
+   
+  <!-- JS modificados a serieJS -->
+  <script src="serieJS/jquery.min.js"></script>
+  <script src="serieJS/popper.min.js"></script>
+  <script src="serieJS/bootstrap.bundle.min.js"></script>
+  <!-- scrollbar plugin -->
+  <script src="serieJS/jquery.mCustomScrollbar.concat.min.js"></script>
+  <!-- owl carousel -->
+  <script src="serieJS/owl.carousel.js"></script>
+  <!-- fancybox (externo, no se cambia) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  <!-- gijgo (externo, no se cambia) -->
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <!-- custom -->
+  <script src="serieJS/custom.js"></script>
+
+  <script>
+    // Inicialización datepicker (si lo usas en la plantilla)
+    if (typeof $ !== 'undefined' && $('#datepicker').length) {
+      $('#datepicker').datepicker({ uiLibrary: 'bootstrap4' });
+    }
+  </script>
+  <div id="footer"></div>
 
     <script src="../js/main.js"></script>
-  </body>
+</body>
 </html>
