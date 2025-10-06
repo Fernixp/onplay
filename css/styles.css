@@ -6,11 +6,19 @@ body {
   
   
   body {
-    margin: 0;
+    margin: 0;    
     font-family: Arial, sans-serif;
     background: #f4f4f4;
     padding-top: 60px; /* evita que el hero quede debajo del navbar */
   }
+
+  h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
   
   /* Navbar fijo */
   .navbar {
@@ -229,3 +237,78 @@ body {
     box-shadow: 0 8px 12px rgba(0,0,0,0.2);
   }
   
+
+
+  
+  /* Accesibilidad - ROBERTO VALLEJOS */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 12px;
+  z-index: 1001;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Recomendaciones - ROBERTO VALLEJOS */
+.recomendaciones-section {
+  background: #fff;
+  padding: 60px 20px;
+}
+.recomendaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+.reco-card {
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+.reco-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.reco-card h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+.reco-card h3 a:hover {
+  color: #f39c12;
+}
+
+/* Página individual - ROBERTO VALLEJOS */
+.detalle-recomendacion {
+  padding: 40px 20px;
+  text-align: center;
+}
+.detalle-recomendacion img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* iframe - ROBERTO VALLEJOS */
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+}
+
+.bodyRec{
+  margin-left: 200px; 
+  margin-right: 200px;
+}
