@@ -1,21 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Nombre de la página | OnPlay</title>
-    <link rel="stylesheet" href="../css/styles.css" />
-  </head>
-  <body>
-    <!-- Navbar dinámico -->
-    <div id="navbar"></div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Recomendaciones | OnPlay</title>
+  <meta name="description" content="Descubre nuestras recomendaciones de películas y series destacadas del momento.">
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+  
+  <!-- Navbar -->
+  <div id="navbar"></div>
 
-    <main>
-      <p>Contenido personalizado para esta sección.</p>
-    </main>
+  <main id="contenido">
+    <header class="page-header">
+      <h1>⭐ Recomendaciones</h1>
+      <p text align="center">Explora nuestras sugerencias destacadas de películas y series imperdibles.</p>
+    </header>
 
-    <!-- Footer dinámico -->
-    <div id="footer"></div>
+    <!-- Sección de Películas -->
+    <section aria-labelledby="peliculas-titulo" class="recomendaciones-section">
+      <h2 id="peliculas-titulo">🎬 Películas Recomendadas</h2>
+      <div class="recomendaciones-grid">
+        <article class="reco-card">
+          <figure>
+            <img src="https://m.media-amazon.com/images/M/MV5BNmE5ZjNmZTQtODIwMy00YzQwLTk5MTUtN2Y5MDFmNjMzYjI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Poster de la película Vengadores 1"/>
+            <figcaption>Vengadores</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/avengers.html">Vengadores 1</a></h3>
+          <p>Acción, Ciencia Ficción.</p>
+        </article>
 
-    <script src="../js/main.js"></script>
-  </body>
+        <article class="reco-card">
+          <figure>
+            <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/54/Avengers_Age_Of_Ultron_Poster.png/revision/latest/scale-to-width-down/1000?cb=20191029195118&path-prefix=es" alt="Poster de la película Vengadores Era de Ultron" />
+            <figcaption>Vengadores Era de Ultron</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/eraUltron.html">Vengadores Era de Ultron</a></h3>
+          <p>Acción, Ciencia Ficción.</p>
+        </article>
+
+        <article class="reco-card">
+          <figure>
+            <img src="https://m.media-amazon.com/images/I/71K122LB4gL._AC_SL1200_.jpg" alt="Poster de la película Vengadores Infinity War" />
+            <figcaption>Vengadores Infinity War</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/infinityWar.html">Vengadores Infinity War</a></h3>
+          <p>Acción, Ciencia Ficción.</p>
+        </article>
+
+        <article class="reco-card">
+          <figure>
+            <img src="https://i.ebayimg.com/images/g/gTMAAOSwvcBctiZ0/s-l1200.png" alt="Poster de la película Vengadores End Game" />
+            <figcaption>Vengadores End Game</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/endGame.html">Vengadores End Game</a></h3>
+          <p>Acción, Ciencia Ficción.</p>
+        </article>
+
+        <article class="reco-card">
+          <figure>
+            <img src="https://i.pinimg.com/736x/73/87/bf/7387bf3bf7a2097712cae9bc78ac505b.jpg" alt="Poster de la película Vengadores Doomsday" />
+            <figcaption>Vengadores Doomsday</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/doomsday.html">Vengadores Doomsday</a></h3>
+          <p>Acción, Ciencia Ficción.</p>
+        </article>
+
+
+
+
+      </div>
+    </section>
+
+    <!-- Sección de Series -->
+    <section aria-labelledby="series-titulo" class="recomendaciones-section">
+      <h2 id="series-titulo">📺 Series Recomendadas</h2>
+      <div class="recomendaciones-grid">
+        <article class="reco-card">
+          <figure>
+            <img src="https://image.tmdb.org/t/p/original/5UuJsD8ByTir7PkW8gVciYaDNBa.jpg" alt="Poster de la serie Halo" />
+            <figcaption>Halo</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/halo.html">Halo</a></h3>
+          <p>Ciencia Ficción, Acción.</p>
+        </article>
+
+        <article class="reco-card">
+          <figure>
+            <img src="https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Poster de la serie Breaking Bad" />
+            <figcaption>Breaking Bad</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/breakingBad.html">Breaking Bad</a></h3>
+          <p>Drama.</p>
+        </article>
+
+        <article class="reco-card">
+          <figure>
+            <img src="https://m.media-amazon.com/images/I/71dCIpL6RjL._UF894,1000_QL80_.jpg" alt="Poster de la serie Invincible" />
+            <figcaption>Invincible</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/invinsible.html">Invincible</a></h3>
+          <p>Acción, Animación, Aventura, Fantasía.</p>
+        </article>
+
+        <article class="reco-card">
+          <figure>
+            <img src="https://m.media-amazon.com/images/I/61W-KI4mR6L._UF894,1000_QL80_.jpg" alt="Poster de la serie Game of Thrones" />
+            <figcaption>Game of Thrones</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/gameOfThrones.html">Game of Thrones</a></h3>
+          <p>Drama, Fantasía.</p>
+          </article>
+
+          <article class="reco-card">
+          <figure>
+            <img src="https://www.tallengestore.com/cdn/shop/products/HouseOfTheDragon_GoT_-TVShowPoster2_a69da114-1374-4a54-8a66-bf67c1922b9e.jpg?v=1664546347" alt="Poster de la serie House of the Dragon" />
+            <figcaption>House of the Dragon</figcaption>
+          </figure>
+          <h3><a href="recomendaciones/houseDragon.html">House of the Dragon</a></h3>
+          <p>Drama, Fantasía.</p>
+        </article>
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="../js/main.js"></script>
+</body>
 </html>
