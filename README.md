@@ -43,7 +43,7 @@ Aquí un resumen rápido:
 - 🎭 Actores – (Nombre integrante)
 - 📩 Contacto – (Nombre integrante)
 
----
+--- 
 
 ## Link del sitio desplegado
 
