@@ -37,11 +37,11 @@ Aquí un resumen rápido:
 
 ## 👨‍💻 Equipo
 - 🎬 Inicio – (Fernixp)
-- 📽 Películas – (Nombre integrante)
-- 📺 Series – (Nombre integrante)
-- ⭐ Recomendaciones – (Nombre integrante)
-- 🎭 Actores – (Nombre integrante)
-- 📩 Contacto – (Nombre integrante)
+- 📽 Películas – Samuel Felipe Vale Calle
+- 📺 Series – Josue Angel Vallejos Condori
+- ⭐ Recomendaciones – Roberto Rafael Vallejos Santa Maria
+- 🎭 Actores – Pablo Vargas Quispe
+- 📩 Contacto – Madelen Vargas Gutierrez
 
 ---
 
