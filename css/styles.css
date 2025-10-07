@@ -59,7 +59,7 @@ h2 {
   
   /* Link normal */
   .nav-links a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s;
@@ -92,7 +92,7 @@ h2 {
   /* Hero */
   .hero {
     position: relative;
-    background: url('https://picsum.photos/1600/600?blur=3') no-repeat center center/cover;
+    background: url('../pages/images/hero.jpg') no-repeat center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -177,7 +177,7 @@ h2 {
   
   .btn-secondary {
     background: #f39c12;
-    color: white;
+    color: #fff;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;

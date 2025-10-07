@@ -2,55 +2,64 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Descubre películas, series y recomendaciones con OnPlay, tu catálogo favorito de entretenimiento."
+    />
+
     <title>Inicio | OnPlay</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Navbar dinámico -->
-    <div id="navbar"></div>
+  <!-- Enlace de salto para accesibilidad -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
-    <!-- Hero principal -->
-    <header class="hero">
-      <div class="hero-content">
-        <h1>Bienvenido a <span>OnPlay</span></h1>
-        <p>Explora películas, series y actores favoritos en un solo lugar.</p>
-        <a href="pages/peliculas.html" class="btn-primary">Ver Catálogo</a>
-      </div>
-    </header>
+  <!-- Navbar -->
+  <div id="navbar" role="navigation" aria-label="Barra de navegación principal"></div>
 
+  <!-- Hero -->
+  <header class="hero" role="banner" aria-label="Sección principal de bienvenida">
+    <div class="hero-content">
+      <h1>Bienvenido a <span>OnPlay</span></h1>
+      <p>Explora películas, series y actores favoritos en un solo lugar.</p>
+      <a href="pages/peliculas.html" class="btn-primary" aria-label="Ir al catálogo de películas">Ver Catálogo</a>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main id="main-content" role="main">
     <!-- Sección de destacados -->
-    <section class="features">
-      <h2>¿Qué encontrarás?</h2>
+    <section class="features" aria-labelledby="features-title">
+      <h2 id="features-title">¿Qué encontrarás?</h2>
       <div class="feature-grid">
-        <div class="card">
+        <div class="card" role="article">
           <h3>📽 Películas</h3>
           <p>Un catálogo visual con posters, sinopsis y valoraciones.</p>
         </div>
-        <div class="card">
+        <div class="card" role="article">
           <h3>📺 Series</h3>
           <p>Las mejores series organizadas en un diseño fácil de navegar.</p>
         </div>
-        <div class="card">
+        <div class="card" role="article">
           <h3>⭐ Recomendaciones</h3>
-          <p>
-            Nuestro top de favoritas para que siempre tengas algo nuevo que ver.
-          </p>
+          <p>Nuestro top de favoritas para que siempre tengas algo nuevo que ver.</p>
         </div>
       </div>
     </section>
 
-    <!-- Sección call-to-action -->
-    <section class="cta">
+    <!-- Call-to-action -->
+    <section class="cta" role="region" aria-label="Explorar recomendaciones">
       <h2>¿Listo para descubrir?</h2>
       <p>Empieza ahora y encuentra tu próxima película favorita.</p>
-      <a href="pages/recomendaciones.html" class="btn-secondary"
-        >Explorar Recomendaciones</a
-      >
+      <a href="pages/recomendaciones.html" class="btn-secondary" aria-label="Ver recomendaciones destacadas">Explorar Recomendaciones</a>
     </section>
+  </main>
 
-    <!-- Footer dinámico -->
-    <div id="footer"></div>
+  <!-- Footer -->
+  <footer id="footer" role="contentinfo" aria-label="Información del sitio"></footer>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js" defer></script>
+</body>
+
 </html>
